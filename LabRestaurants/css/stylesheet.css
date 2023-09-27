@@ -1,0 +1,52 @@
+
+body {
+ background: #b0e0fc; 
+}	
+
+#outerwrapper {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: dotted;
+}
+
+/* add first-of-type to target h2 */
+h2:first-of-type {
+  padding-left: .5em;
+}
+
+          h3 {
+  padding-left: .5em;
+}
+
+/* add nth-child(odd) to target ul li */
+ul:nth-child(odd) li:nth-child(odd){
+  font-style: italic;
+}
+
+/* unvisited link */
+a:link {
+  color: #0011ff;
+}
+
+/* visited link */
+a:visited {
+  color: #f2ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #540081;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+footer
+{
+  background: #ffffff; 
+  text-align: center;
+  padding: .25em;
+}
