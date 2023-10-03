@@ -64,5 +64,6 @@ font-style: italic;
 	background-color: white;
 	padding: 10px;
   }
-
-
+.marker{
+display: none;	
+}
