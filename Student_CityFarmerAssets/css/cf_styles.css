@@ -39,7 +39,7 @@ color: #000000;
 font-family: 'Times New Roman', Times, serif;
 }
 
-.nav ul {
+.nav li {
 	list-style-image: none !important;
 }
 
