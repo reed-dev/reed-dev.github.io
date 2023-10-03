@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*Matthew Reed, 10/3/2023 */
+
+#outerwrapper {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main  { 
+background-color: #C5A98B;
+padding: 10px;
+clear: both;
+}
+
+footer {
+clear: both;
+font-size: 0.75em;
+text-align: center; 
+background-color: #ffffff; 
+padding: 10px 0; 
+}
+  
+
+body {
+background-color: #b8d1eb;
+color: #000000;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+h1{
+font-family: Arial, sans-serif;
+font-size: 24px;
+}
+
+h2{
+font-family: Arial, sans-serif;
+font-weight: normal;
+font-style: italic;
+}
+
+article li {
+	list-style-image: url("../images/tomato.png");
+  }
+
+  article{
+	margin-left: 175px;
+	background-color: white;
+	padding: 10px;
+  }
+
