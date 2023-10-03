@@ -40,7 +40,8 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .nav li {
-	list-style-image: none !important;
+	list-style: none !important;
+	
 }
 
 h1{
