@@ -1,0 +1,14 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+
+.websafe{
+    font-family: 'Inconsolata', monospace;
+}
+.google {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: large;
+}
+
