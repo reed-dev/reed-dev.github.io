@@ -1,0 +1,11 @@
+/* css used to target all portfolio web pages */
+/* applies to all web pages to promote consistency       */
+    body {
+        background: #FF0000;
+    }
+    @media screen and (min-width:600px){
+        body{
+            background:#0000FF;
+        }
+    }
+
