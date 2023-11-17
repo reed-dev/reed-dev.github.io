@@ -50,6 +50,14 @@ a:active {
   color: #ffffff;
 }
 
+.character img{
+  width: 300px;
+  transition: 0.5s;
+}
+.character img:hover{
+  width: 500px;
+  transition: 0.5s;
+}
 
 
 
