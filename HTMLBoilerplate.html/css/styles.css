@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+:root{
+    --fontSize: 1.25em;
+    --fontSizeHeading: calc(var(--fontSize) *3);
+}
 
-h1 {
+h1#Header{
   font-family: 'Anton', sans-serif;
   background: #A8D6EB;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-size: var(--fontSizeHeading);
 }	
+
+body{
+  font-size: var(--fontSize);
+}
 
 .section {
   background: #AEF0CC; 
