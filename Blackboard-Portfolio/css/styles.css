@@ -1,0 +1,108 @@
+/* css used to target all portfolio web pages */
+/* applies to all web pages to promote consistency       */
+/* Default link styles */
+
+.navigation a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation a:visited {
+  color: #bcfff8;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.navigation a:active {
+  color: #ff0000;
+}
+
+body {
+  background: rgba(88, 91, 96, 0.404);
+  color: #333333;
+  font-size: 1.25rem;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000; /* Set the background color for the header */
+  color: white; /* Set the text color for the header */
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  max-width: 100px; /* Adjust the size as needed */
+  height: auto;
+}
+
+nav {
+  margin-top: 20px; /* Adjust as needed to increase or decrease the space between the picture and the navigation menu */
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin: 0;
+}
+
+nav li {
+  margin: 0 10px; /* Adjust as needed for spacing between menu items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #000000; /* Add a border around each navigation link */
+  border-radius: 10px; /* Make the border circular */
+  padding: 10px; /* Add padding for better aesthetics */
+  background-color: rgb(
+    167,
+    7,
+    208
+  ); /* Set the background color inside the border */
+}
+
+main {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+.passion {
+  color: darkmagenta;
+  font-size: 30px;
+  font-weight: 600;
+}
+.find-me-logo {
+  height: 50px;
+  width: auto;
+}
+.Home-Page{
+    text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
