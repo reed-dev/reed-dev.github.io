@@ -1,7 +1,7 @@
 /* css used to target all portfolio web pages */
 /* applies to all web pages to promote consistency       */
 /* Default link styles */
-@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Pacifico&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Pacifico&display=swap');
 
 .navigationFont {
   font-family: 'Dhurjati', Arial, sans-serif;
