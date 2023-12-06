@@ -1,0 +1,132 @@
+/* css used to style experience.html */
+/*   display project examples        */
+
+table {
+  width: 50%;
+  background-image: linear-gradient(#ffffff, #550083de);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #dfa478;
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.tableDiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+table td,
+th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+}
+
+
+.projectExamples {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projectBox {
+  background: #5c5c5c6a;
+  border: 1px solid #000000;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 31%;
+}
+
+.projectBox h4.semester {
+  background: #00a305;
+  color: #ffffff;
+  padding: 3px;
+}
+
+.projectBox img {
+  margin-bottom: auto;
+}
+
+.projectBox a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #000000;
+  background: #47290099;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 9px;
+}
+
+.projectBoxTwo {
+  background: #ffffff;
+  border: 1px solid #2c003d;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 31%;
+}
+
+.projectBoxTwo h4.semester {
+  background: #550083de;
+  color: #000000;
+  padding: 0px;
+}
+
+.projectBoxTwo img {
+  margin-bottom: auto;
+}
+
+.projectBoxTwo a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #000000;
+  background-color: #bd0000;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 1px;
+}
+.projectBoxThree {
+  background: #ffffff;
+  border: 1px solid #000000;
+  float: left;
+  margin: 0%;
+  text-align: center;
+  width: 31%;
+}
+
+.projectBoxThree h4.semester {
+  background: #0f0083de;
+  color: #03f80c;
+  padding: 0px;
+}
+
+.projectBoxThree img {
+  margin-bottom: 70px;
+}
+
+.projectBoxThree a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #ff0202;
+  background-color: #fff201;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 1px;
+}
+footer {
+  clear: left;
+}
