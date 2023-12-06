@@ -5,6 +5,7 @@
 
 .navigationFont {
   font-family: 'Dhurjati', Arial, sans-serif;
+  font-size: 2rem;
 }
 
 .navigation a:link {
@@ -76,7 +77,7 @@ nav a {
   text-decoration: none;
   color: #ffffff;
   border: 2px solid #000000; /* Add a border around each navigation link */
-  border-radius: 10px; /* Make the border circular */
+  border-radius: 20px; /* Make the border circular */
   padding: 10px; /* Add padding for better aesthetics */
   background-color: rgb(
     167,
