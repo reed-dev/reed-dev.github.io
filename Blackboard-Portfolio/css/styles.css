@@ -2,7 +2,7 @@
 /* applies to all web pages to promote consistency       */
 /* Default link styles */
 
-.navigation a {
+.navigation a:link {
   color: #000000;
   text-decoration: none;
 }
