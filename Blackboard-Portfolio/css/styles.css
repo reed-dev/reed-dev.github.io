@@ -3,6 +3,9 @@
 /* Default link styles */
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Pacifico&display=swap')
 
+.nav-link {
+  font-family: 'Dhurjati', Arial, sans-serif;
+}
 
 .navigation a:link {
   color: #ffffff;
@@ -67,7 +70,6 @@ nav ul {
 
 nav li {
   margin: 0 10px; /* Adjust for spacing between menu items */
-  font-family: 'Dhurjati', Arial, sans-serif;
 }
 
 nav a {
